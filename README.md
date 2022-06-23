@@ -1,2 +1,3 @@
 # Blue Server
-A server maybe ;)
+
+A multitreaded server
