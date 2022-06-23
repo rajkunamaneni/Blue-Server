@@ -1,3 +1,3 @@
 # Blue Server
 
-A multitreaded server
+A multi threaded server
