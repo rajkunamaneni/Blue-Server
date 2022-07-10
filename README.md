@@ -4,7 +4,7 @@
 
 This program is is a Multithreaded HTTP Server. Use the `-l` to specify where to store the logs in a file. The `-t` will specify the number of threads the program will use. This program will write to a file or extract the contents of a file with the commands GET, PUT, and APPEND. APPEND in not an official request but an added request that add contents to a file without wiping the file. The program works locally. Use a flag specifier to view the verbose options when sending a request or response from the server. This program uses the PTHREAD API to create separate threads for the required thread pool. This program has built-in features that deal with coherency and atomicity by the use of flock and multiple mutex locks. 
 
-## Building
+## Build
 
 Build the program with:
 
