@@ -141,7 +141,7 @@ static void handle_connection(int connfd) {
 
   freeList(&S);
   read_request(logfile, connfd, method, URI, buf, cl, rq, total, readcall);
-  // parse through request now with read
+  //function handles request for GET, PUT, APPEND
   return;
 }
 
