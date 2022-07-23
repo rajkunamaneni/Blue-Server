@@ -134,7 +134,7 @@ void read_request(FILE *out, int socket, char *method, char *filename, char *val
                     return;
                 }
             }
-            if (cl > 0) {
+            if (cl > 0) { //if content length is empty 
                 write_bytes(infile, buf, readcall);
             }
         }
