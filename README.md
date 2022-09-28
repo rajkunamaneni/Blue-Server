@@ -1,4 +1,4 @@
-# Multithreaded HTTP Server
+# Multithreaded Server
 
 ## Program Description
 
